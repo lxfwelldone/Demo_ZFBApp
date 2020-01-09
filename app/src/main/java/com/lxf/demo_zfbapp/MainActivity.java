@@ -59,6 +59,10 @@ public class MainActivity extends Activity {
      */
     private RecyclerView.SmoothScroller mSmoothScroller;
 
+
+
+    private boolean isInit = true;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -89,6 +93,11 @@ public class MainActivity extends Activity {
         mTabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
+                if (!isInit){
+                    mAppBar.setExpanded(false, true);
+                }
+                if (isInit) isInit = false;
+
                 //点击tab的时候，RecyclerView自动滑到该tab对应的item位置
                 int position = tab.getPosition();
                 if (!isScroll) {
@@ -211,6 +220,18 @@ public class MainActivity extends Activity {
 
 
         listApps = new ArrayList<>();
+        listApps.add(new App("英语等级", false));
+        listApps.add(new App("英语等级", false));
+        listApps.add(new App("英语等级", false));
+        listApps.add(new App("英语等级", false));
+        listApps.add(new App("英语等级", false));
+        listApps.add(new App("英语等级", false));
+        listApps.add(new App("英语等级", false));
+        listApps.add(new App("英语等级", false));
+        listApps.add(new App("英语等级", false));
+        listApps.add(new App("英语等级", false));
+        listApps.add(new App("英语等级", false));
+        listApps.add(new App("英语等级", false));
         listApps.add(new App("英语等级", false));
         listApps.add(new App("英语等级", false));
         listApps.add(new App("英语等级", false));
