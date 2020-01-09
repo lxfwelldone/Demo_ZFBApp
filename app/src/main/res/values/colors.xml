@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="main">#0d8437</color>
+    <color name="white">#ffffff</color>
+    <color name="clear">#00000000</color>
+    <color name="orange">#ff9900</color>
+
+    <color name="black">#000000</color>
+    <color name="black3">#333333</color>
+    <color name="black6">#666666</color>
+    <color name="black9">#999999</color>
+
+
+    <color name="bgf2">#f2f2f2</color>
+    <color name="bgf5">#f5f5f5</color>
+
+    <color name="lineE8">#e8e8e8</color>
+    <color name="lineD8">#d8d8d8</color>
+
+    <color name="login_et_bg">#d8d8d8</color>
+
+
+    <color name="contact_bg1">#488EF8</color>
+    <color name="contact_bg2">#f09926</color>
+    <color name="contact_bg3">#27ac91</color>
+    <color name="contact_bg4">#ee5b49</color>
+
+    <color name="contact_bg_sendMsg">#FFE5E5</color>
+    <color name="contact_bg_call">#FF4D4D</color>
+</resources>
+
