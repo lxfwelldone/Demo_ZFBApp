@@ -167,7 +167,6 @@ public class MainActivity extends Activity {
 
 
         listApps = new ArrayList<>();
-        listApps.add(new App("学习工作", true));
         listApps.add(new App("考试查询", false));
         listApps.add(new App("考试查询", false));
         listApps.add(new App("考试查询", false));
