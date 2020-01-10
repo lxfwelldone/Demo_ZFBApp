@@ -291,7 +291,7 @@ public class MainActivity extends Activity {
                 vh.tvGroup.setText(mData.get(position).getName());
                 vh.recyclerView.setRecycledViewPool(mRecycledViewPool);
                 vh.recyclerView.setHasFixedSize(false);
-//                vh.recyclerView.setNestedScrollingEnabled(false);
+                vh.recyclerView.setNestedScrollingEnabled(false);
 
                 GridLayoutManager gridLayoutManager = new GridLayoutManager(context, 4){
 
